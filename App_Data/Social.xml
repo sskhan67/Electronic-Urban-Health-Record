@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Social>
+    <City>Siegen</City>
+    <Literacy>6</Literacy>
+    <LiteracyL>66</LiteracyL>
+    <LiteracyU>10</LiteracyU>
+    <LiteracyDataType>Number</LiteracyDataType>
+    <UnderweightChildren>6</UnderweightChildren>
+    <UnderweightChildrenL>9</UnderweightChildrenL>
+    <UnderweightChildrenU>10</UnderweightChildrenU>
+    <UnderweightChildrenDataType>Percentage</UnderweightChildrenDataType>
+    <OverweightObesity>6</OverweightObesity>
+    <OverweightObesityL>9</OverweightObesityL>
+    <OverweightObesityU>10</OverweightObesityU>
+    <OverweightObesityDataType>Percentage</OverweightObesityDataType>
+    <Breastfeeding>6</Breastfeeding>
+    <BreastfeedingL>9</BreastfeedingL>
+    <BreastfeedingU>10</BreastfeedingU>
+    <BreastfeedingDataType>Percentage</BreastfeedingDataType>
+    <TeenagePregnancy>6</TeenagePregnancy>
+    <TeenagePregnancyL>9</TeenagePregnancyL>
+    <TeenagePregnancyU>10</TeenagePregnancyU>
+    <TeenagePregnancyDataType>Percentage</TeenagePregnancyDataType>
+    <PhysicalActivity>6</PhysicalActivity>
+    <PhysicalActivityL>9</PhysicalActivityL>
+    <PhysicalActivityU>10</PhysicalActivityU>
+    <PhysicalActivityDataType>Percentage</PhysicalActivityDataType>
+  </Social>
+</NewDataSet>

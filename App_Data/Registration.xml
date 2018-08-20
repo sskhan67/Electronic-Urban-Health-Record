@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Registration>
+    <UserName>a</UserName>
+    <Password>a</Password>
+    <Email>a@.com</Email>
+    <Role>Admin</Role>
+  </Registration>
+  <Registration>
+    <UserName>m</UserName>
+    <Password>m</Password>
+    <Email>m@m.com</Email>
+    <Role>Manager</Role>
+  </Registration>
+  <Registration>
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+    <Email>admin@gmail.com</Email>
+    <Role>Admin</Role>
+  </Registration>
+  <Registration>
+    <UserName>b</UserName>
+    <Password>ww</Password>
+    <Email>12</Email>
+    <Role>Manager</Role>
+  </Registration>
+</NewDataSet>

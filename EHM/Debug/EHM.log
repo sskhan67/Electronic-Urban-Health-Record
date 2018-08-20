@@ -1,0 +1,345 @@
+﻿Build started 11/11/2012 5:42:31 PM.
+     1>Project "C:\Users\nayan\Desktop\EHM\EHM\EHM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EHM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\EHM.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Admin.cpp AdminPage.cpp EHM.cpp Login.cpp "Social and human development.cpp" /clr:nostdlib 
+         Admin.cpp
+     1>c:\users\nayan\desktop\ehm\ehm\NewCity.h(527): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\AccessAllCities.h(207): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeCityInfo.h(481): warning C4101: 'comboString' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1166): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1676): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1677): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1678): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1679): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1680): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1681): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1682): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(660): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(531): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(750): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(751): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1395): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1931): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1932): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1933): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1937): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1938): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1939): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1024): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1421): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1422): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1423): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1424): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1425): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1426): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1433): warning C4101: 'flag' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyEconomic.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyGovernance.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyHealthCareOutcomes.h(227): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyPhysicalEnvironmentAndInfrastructure.h(208): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalySocialAndHumanDevelopment.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Registration.h(399): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeUserInfo.h(388): warning C4101: 'comboString' : unreferenced local variable
+         AdminPage.cpp
+     1>c:\users\nayan\desktop\ehm\ehm\NewCity.h(527): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeCityInfo.h(481): warning C4101: 'comboString' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\AccessAllCities.h(207): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1166): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1676): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1677): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1678): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1679): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1680): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1681): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1682): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(660): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1395): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1931): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1932): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1933): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1937): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1938): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1939): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1024): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1421): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1422): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1423): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1424): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1425): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1426): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1433): warning C4101: 'flag' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(531): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(750): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(751): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyPhysicalEnvironmentAndInfrastructure.h(208): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyEconomic.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyHealthCareOutcomes.h(227): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalySocialAndHumanDevelopment.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyGovernance.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Registration.h(399): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeUserInfo.h(388): warning C4101: 'comboString' : unreferenced local variable
+         EHM.cpp
+     1>c:\users\nayan\desktop\ehm\ehm\NewCity.h(527): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\AccessAllCities.h(207): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeCityInfo.h(481): warning C4101: 'comboString' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1166): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1676): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1677): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1678): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1679): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1680): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1681): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1682): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(660): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(531): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(750): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(751): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1395): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1931): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1932): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1933): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1937): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1938): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1939): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1024): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1421): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1422): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1423): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1424): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1425): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1426): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1433): warning C4101: 'flag' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyEconomic.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyGovernance.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyHealthCareOutcomes.h(227): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyPhysicalEnvironmentAndInfrastructure.h(208): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalySocialAndHumanDevelopment.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Registration.h(399): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeUserInfo.h(388): warning C4101: 'comboString' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\CityDataAnalysis.h(582): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataPhysicalEnvironmentAndInfrastructure.h(754): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataPhysicalEnvironmentAndInfrastructure.h(982): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataEconomic.h(518): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataEconomic.h(663): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataGovernance.h(459): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataGovernance.h(580): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataHealthCareOutcomes.h(873): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataHealthCareOutcomes.h(1143): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataSocialAndHumanDevelopment.h(696): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataSocialAndHumanDevelopment.h(902): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\CommentsEconomic.h(97): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Login.h(321): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+         Login.cpp
+     1>c:\users\nayan\desktop\ehm\ehm\NewCity.h(527): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\AccessAllCities.h(207): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeCityInfo.h(481): warning C4101: 'comboString' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1166): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1676): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1677): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1678): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1679): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1680): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1681): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Physical environment and infrastructure.h(1682): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(660): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Economic.h(936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(531): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(750): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Governance.h(751): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1395): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1931): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1932): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1933): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1934): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1935): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1936): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1937): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1938): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Health care outcomes.h(1939): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1024): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1421): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1422): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1423): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1424): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1425): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1426): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1433): warning C4101: 'flag' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyEconomic.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyGovernance.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyHealthCareOutcomes.h(227): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalyPhysicalEnvironmentAndInfrastructure.h(208): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DispalySocialAndHumanDevelopment.h(202): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Registration.h(399): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\ChangeUserInfo.h(388): warning C4101: 'comboString' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\CityDataAnalysis.h(582): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataPhysicalEnvironmentAndInfrastructure.h(754): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataPhysicalEnvironmentAndInfrastructure.h(982): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataEconomic.h(518): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataEconomic.h(663): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataGovernance.h(459): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataGovernance.h(580): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataHealthCareOutcomes.h(873): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataHealthCareOutcomes.h(1143): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\DataSocialAndHumanDevelopment.h(696): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\DataSocialAndHumanDevelopment.h(902): warning C4101: 'sign' : unreferenced local variable
+     1>c:\users\nayan\desktop\ehm\ehm\CommentsEconomic.h(97): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Login.h(321): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+         Social and human development.cpp
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1024): warning C4947: 'System::Xml::XmlDataDocument' : marked as obsolete
+                 Message: 'XmlDataDocument class will be removed in a future release.'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1421): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1422): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1423): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1424): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1425): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1426): warning C4305: 'argument' : truncation from 'int' to 'bool'
+     1>c:\users\nayan\desktop\ehm\ehm\Social and human development.h(1433): warning C4101: 'flag' : unreferenced local variable
+         Generating Code...
+         All outputs are up-to-date.
+       CoreResGen:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nayan\Desktop\EHM\Debug\EHM.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\EHM.AboutUs.resources /ASSEMBLYRESOURCE:Debug\EHM.AccessAllCities.resources /ASSEMBLYRESOURCE:Debug\EHM.AdminPage.resources /ASSEMBLYRESOURCE:Debug\EHM.ChangeCityInfo.resources /ASSEMBLYRESOURCE:Debug\EHM.ChangeCityName.resources /ASSEMBLYRESOURCE:Debug\EHM.ChangeUserInfo.resources /ASSEMBLYRESOURCE:Debug\EHM.ContactUs.resources /ASSEMBLYRESOURCE:Debug\EHM.database.resources /ASSEMBLYRESOURCE:Debug\EHM.DataEconomic.resources /ASSEMBLYRESOURCE:Debug\EHM.DataGovernance.resources /ASSEMBLYRESOURCE:Debug\EHM.DataHealthCareOutcomes.resources /ASSEMBLYRESOURCE:Debug\EHM.DataPhysicalEnvironmentAndInfrastructure.resources /ASSEMBLYRESOURCE:Debug\EHM.DataSocialAndHumanDevelopment.resources /ASSEMBLYRESOURCE:Debug\EHM.DeleteCity.resources /ASSEMBLYRESOURCE:Debug\EHM.DeleteUser.resources /ASSEMBLYRESOURCE:Debug\EHM.DispalyEconomic.resources /ASSEMBLYRESOURCE:Debug\EHM.DispalyGovernance.resources /ASSEMBLYRESOURCE:Debug\EHM.DispalyHealthCareOutcomes.resources /ASSEMBLYRESOURCE:Debug\EHM.DispalyPhysicalEnvironmentAndInfrastructure.resources /ASSEMBLYRESOURCE:Debug\EHM.DispalySocialAndHumanDevelopment.resources /ASSEMBLYRESOURCE:Debug\EHM.Economic.resources /ASSEMBLYRESOURCE:Debug\EHM.Governance.resources /ASSEMBLYRESOURCE:"Debug\EHM.Health care outcomes.resources" /ASSEMBLYRESOURCE:Debug\EHM.Login.resources /ASSEMBLYRESOURCE:Debug\EHM.ManagerPage.resources /ASSEMBLYRESOURCE:Debug\EHM.NewCity.resources /ASSEMBLYRESOURCE:"Debug\EHM.Physical environment and infrastructure.resources" /ASSEMBLYRESOURCE:Debug\EHM.Registration.resources /ASSEMBLYRESOURCE:"Debug\EHM.Social and human development.resources" /MANIFEST /ManifestFile:"Debug\EHM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nayan\Desktop\EHM\Debug\EHM.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AboutUs.obj
+         Debug\AccessAllCities.obj
+         Debug\Admin.obj
+         Debug\AdminPage.obj
+         Debug\AssemblyInfo.obj
+         Debug\ChangeCityInfo.obj
+         Debug\ChangeCityName.obj
+         Debug\ChangeUserInfo.obj
+         Debug\CityDataAnalysis.obj
+         Debug\CityPhysicalEnvironmentAndInfrastructure.obj
+         Debug\CommentsEconomic.obj
+         Debug\ContactUs.obj
+         Debug\database.obj
+         Debug\DataEconomic.obj
+         Debug\DataGovernance.obj
+         Debug\DataHealthCareOutcomes.obj
+         Debug\DataPhysicalEnvironmentAndInfrastructure.obj
+         Debug\DataSocialAndHumanDevelopment.obj
+         Debug\DeleteCity.obj
+         Debug\DeleteUser.obj
+         Debug\DispalyEconomic.obj
+         Debug\DispalyGovernance.obj
+         Debug\DispalyHealthCareOutcomes.obj
+         Debug\DispalyPhysicalEnvironmentAndInfrastructure.obj
+         Debug\DispalySocialAndHumanDevelopment.obj
+         Debug\Economic.obj
+         Debug\EHM.obj
+         Debug\Governance.obj
+         "Debug\Health care outcomes.obj"
+         Debug\HelpFile.obj
+         Debug\Login.obj
+         Debug\Manager.obj
+         Debug\ManagerPage.obj
+         Debug\NewCity.obj
+         "Debug\Physical environment and infrastructure.obj"
+         Debug\Registration.obj
+         "Debug\Social and human development.obj"
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         EHM.vcxproj -> C:\Users\nayan\Desktop\EHM\Debug\EHM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nayan\Desktop\EHM\Debug\EHM.exe;#1" /manifest Debug\EHM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\EHM.unsuccessfulbuild".
+         Touching "Debug\EHM.lastbuildstate".
+     1>Done Building Project "C:\Users\nayan\Desktop\EHM\EHM\EHM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.31

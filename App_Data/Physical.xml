@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Physical>
+    <City>Siegen</City>
+    <Household>101</Household>
+    <HouseholdL>25</HouseholdL>
+    <HouseholdU>80</HouseholdU>
+    <HouseholdDataType>Number</HouseholdDataType>
+    <Solid>10</Solid>
+    <SolidL>12</SolidL>
+    <SolidU>80</SolidU>
+    <SolidDataType>Number</SolidDataType>
+    <Work>10</Work>
+    <WorkL>12</WorkL>
+    <WorkU>80</WorkU>
+    <WorkDataType>Percentage</WorkDataType>
+    <AccessWater>10</AccessWater>
+    <AccessWaterL>12</AccessWaterL>
+    <AccessWaterU>80</AccessWaterU>
+    <AccessWaterDataType>Percentage</AccessWaterDataType>
+    <AccessSanitation>10</AccessSanitation>
+    <AccessSanitationL>12</AccessSanitationL>
+    <AccessSanitationU>80</AccessSanitationU>
+    <AccessSanitationDataType>Percentage</AccessSanitationDataType>
+    <Alcohol>10</Alcohol>
+    <AlcoholL>12</AlcoholL>
+    <AlcoholU>80</AlcoholU>
+    <AlcoholDataType>Percentage</AlcoholDataType>
+    <Green>10</Green>
+    <GreenL>12</GreenL>
+    <GreenU>10</GreenU>
+    <GreenDataType>Percentage</GreenDataType>
+  </Physical>
+</NewDataSet>

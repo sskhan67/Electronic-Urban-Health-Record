@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05067EC3-0AD3-43F0-8D8F-784020BB035B}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>EHM</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\App_Data\Economic.xml" />
+    <None Include="..\App_Data\Governance.xml" />
+    <None Include="..\App_Data\Health.xml" />
+    <None Include="..\App_Data\Physical.xml" />
+    <None Include="..\App_Data\Social.xml" />
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutUs.cpp" />
+    <ClCompile Include="AccessAllCities.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="AdminPage.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="ChangeCityInfo.cpp" />
+    <ClCompile Include="ChangeCityName.cpp" />
+    <ClCompile Include="ChangeUserInfo.cpp" />
+    <ClCompile Include="CityDataAnalysis.cpp" />
+    <ClCompile Include="CityPhysicalEnvironmentAndInfrastructure.cpp" />
+    <ClCompile Include="CommentsEconomic.cpp" />
+    <ClCompile Include="ContactUs.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="DataEconomic.cpp" />
+    <ClCompile Include="DataGovernance.cpp" />
+    <ClCompile Include="DataHealthCareOutcomes.cpp" />
+    <ClCompile Include="DataPhysicalEnvironmentAndInfrastructure.cpp" />
+    <ClCompile Include="DataSocialAndHumanDevelopment.cpp" />
+    <ClCompile Include="DeleteCity.cpp" />
+    <ClCompile Include="DeleteUser.cpp" />
+    <ClCompile Include="DispalyEconomic.cpp" />
+    <ClCompile Include="DispalyGovernance.cpp" />
+    <ClCompile Include="DispalyHealthCareOutcomes.cpp" />
+    <ClCompile Include="DispalyPhysicalEnvironmentAndInfrastructure.cpp" />
+    <ClCompile Include="DispalySocialAndHumanDevelopment.cpp" />
+    <ClCompile Include="Economic.cpp" />
+    <ClCompile Include="EHM.cpp" />
+    <ClCompile Include="Governance.cpp" />
+    <ClCompile Include="Health care outcomes.cpp" />
+    <ClCompile Include="HelpFile.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="ManagerPage.cpp" />
+    <ClCompile Include="NewCity.cpp" />
+    <ClCompile Include="Physical environment and infrastructure.cpp" />
+    <ClCompile Include="Registration.cpp" />
+    <ClCompile Include="Social and human development.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutUs.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AccessAllCities.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ChangeCityInfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ChangeCityName.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ChangeUserInfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ContactUs.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DataEconomic.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DataGovernance.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DataHealthCareOutcomes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DataPhysicalEnvironmentAndInfrastructure.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DataSocialAndHumanDevelopment.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DeleteCity.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DeleteUser.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DispalyEconomic.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DispalyGovernance.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DispalyHealthCareOutcomes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DispalyPhysicalEnvironmentAndInfrastructure.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DispalySocialAndHumanDevelopment.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Economic.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Governance.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Health care outcomes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ManagerPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NewCity.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Physical environment and infrastructure.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Registration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Social and human development.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessAllCities.resx">
+      <DependentUpon>AccessAllCities.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeCityInfo.resx">
+      <DependentUpon>ChangeCityInfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeCityName.resx">
+      <DependentUpon>ChangeCityName.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeUserInfo.resx">
+      <DependentUpon>ChangeUserInfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactUs.resx">
+      <DependentUpon>ContactUs.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="database.resx">
+      <DependentUpon>database.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEconomic.resx">
+      <DependentUpon>DataEconomic.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGovernance.resx">
+      <DependentUpon>DataGovernance.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHealthCareOutcomes.resx">
+      <DependentUpon>DataHealthCareOutcomes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPhysicalEnvironmentAndInfrastructure.resx">
+      <DependentUpon>DataPhysicalEnvironmentAndInfrastructure.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSocialAndHumanDevelopment.resx">
+      <DependentUpon>DataSocialAndHumanDevelopment.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCity.resx">
+      <DependentUpon>DeleteCity.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteUser.resx">
+      <DependentUpon>DeleteUser.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispalyEconomic.resx">
+      <DependentUpon>DispalyEconomic.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispalyGovernance.resx">
+      <DependentUpon>DispalyGovernance.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispalyHealthCareOutcomes.resx">
+      <DependentUpon>DispalyHealthCareOutcomes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispalyPhysicalEnvironmentAndInfrastructure.resx">
+      <DependentUpon>DispalyPhysicalEnvironmentAndInfrastructure.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispalySocialAndHumanDevelopment.resx">
+      <DependentUpon>DispalySocialAndHumanDevelopment.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Economic.resx">
+      <DependentUpon>Economic.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Governance.resx">
+      <DependentUpon>Governance.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Health care outcomes.resx">
+      <DependentUpon>Health care outcomes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerPage.resx">
+      <DependentUpon>ManagerPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCity.resx">
+      <DependentUpon>NewCity.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Physical environment and infrastructure.resx">
+      <DependentUpon>Physical environment and infrastructure.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social and human development.resx">
+      <DependentUpon>Social and human development.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

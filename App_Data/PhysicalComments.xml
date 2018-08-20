@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <PhysicalComments>
+    <UserName>m</UserName>
+    <CityName>Siegen</CityName>
+    <HouseholdComment>Hello</HouseholdComment>
+    <SolidComment>World</SolidComment>
+    <WorkComment />
+    <AccessWaterComment />
+    <AccessSanitationComment />
+    <AlcoholComment />
+    <GreenComment />
+  </PhysicalComments>
+</NewDataSet>

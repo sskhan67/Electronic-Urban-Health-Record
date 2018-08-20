@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <SocialComments>
+    <UserName>m</UserName>
+    <CityName>Siegen</CityName>
+    <LiteracyComment>Hello</LiteracyComment>
+    <UnderweightChildrenComment />
+    <OverweightObesityComment />
+    <BreastfeedingComment />
+    <TeenagePregnancyComment />
+    <PhysicalActivityComment>World</PhysicalActivityComment>
+  </SocialComments>
+</NewDataSet>

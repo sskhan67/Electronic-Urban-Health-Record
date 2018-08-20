@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <City>
+    <Name>Siegen</Name>
+    <Inhabitants>4</Inhabitants>
+    <HealthCare>2</HealthCare>
+    <RelatedHealthCare>12/2/2012</RelatedHealthCare>
+    <LinkCityPage>4</LinkCityPage>
+    <CityNeighbor1>rex</CityNeighbor1>
+    <CityNeighbor2 />
+    <CityNeighbor3 />
+    <CityNeighbor4 />
+  </City>
+  <City>
+    <Name>Chittagong</Name>
+    <Inhabitants>5</Inhabitants>
+    <HealthCare>23</HealthCare>
+    <RelatedHealthCare>12/10/2012</RelatedHealthCare>
+    <LinkCityPage>5</LinkCityPage>
+    <CityNeighbor1>ta</CityNeighbor1>
+    <CityNeighbor2>ja</CityNeighbor2>
+    <CityNeighbor3>pa</CityNeighbor3>
+    <CityNeighbor4>
+    </CityNeighbor4>
+  </City>
+  <City>
+    <Name>Bagura</Name>
+    <Inhabitants>1</Inhabitants>
+    <HealthCare>1</HealthCare>
+    <RelatedHealthCare>1</RelatedHealthCare>
+    <LinkCityPage>1</LinkCityPage>
+    <CityNeighbor1>1</CityNeighbor1>
+    <CityNeighbor2>
+    </CityNeighbor2>
+    <CityNeighbor3>
+    </CityNeighbor3>
+    <CityNeighbor4>
+    </CityNeighbor4>
+  </City>
+</NewDataSet>

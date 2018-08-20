@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Governance>
+    <City>Siegen</City>
+    <VoterParticipation>33</VoterParticipation>
+    <VoterParticipationL>50</VoterParticipationL>
+    <VoterParticipationU>88</VoterParticipationU>
+    <VoterParticipationDataType>Number</VoterParticipationDataType>
+    <InsuranceCoverage>10</InsuranceCoverage>
+    <InsuranceCoverageL>50</InsuranceCoverageL>
+    <InsuranceCoverageU>88</InsuranceCoverageU>
+    <InsuranceCoverageDataType>Number</InsuranceCoverageDataType>
+  </Governance>
+  <Governance>
+    <City>Chittagong</City>
+    <VoterParticipation>12</VoterParticipation>
+    <VoterParticipationL>11</VoterParticipationL>
+    <VoterParticipationU>11</VoterParticipationU>
+    <VoterParticipationDataType>Percentage</VoterParticipationDataType>
+    <InsuranceCoverage>78</InsuranceCoverage>
+    <InsuranceCoverageL>23</InsuranceCoverageL>
+    <InsuranceCoverageU>21</InsuranceCoverageU>
+    <InsuranceCoverageDataType>Percentage</InsuranceCoverageDataType>
+  </Governance>
+</NewDataSet>
